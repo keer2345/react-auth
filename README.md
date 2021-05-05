@@ -2,6 +2,31 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Create React App project with [TypeScript](https://www.typescriptlang.org/):
+```
+npx create-react-app my-app --template typescript
+
+# or
+
+yarn create react-app my-app --template typescript
+```
+
+To add TypeScript to an existing Create React App project, first install it:
+```
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+# or
+
+yarn add typescript @types/node @types/react @types/react-dom @types/jest
+```
+
+## Dependencies
+```
+yarn add react-router-dom
+yarn add @types/react-router-dom
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:
